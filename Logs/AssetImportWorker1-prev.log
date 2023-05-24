@@ -1,0 +1,1147 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.20f1 (c5d806317f84) revision 12965894'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Junho0322/Documents/GitHub/FarmRpg
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59611
+Successfully changed project path to: C:/Users/Junho0322/Documents/GitHub/FarmRpg
+C:/Users/Junho0322/Documents/GitHub/FarmRpg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6652] Host "[IP] 192.168.45.178 [Port] 0 [Flags] 2 [Guid] 1831495947 [EditorId] 1831495947 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3D268EQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6652] Host "[IP] 192.168.45.178 [Port] 0 [Flags] 2 [Guid] 1831495947 [EditorId] 1831495947 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3D268EQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 26.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.20f1 (c5d806317f84)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Junho0322/Documents/GitHub/FarmRpg/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.033118 seconds.
+- Loaded All Assemblies, in  0.469 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 536 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (283ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+				TypeCache.Initialize (162ms)
+					TypeCache.ScanAssembly (160ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (820ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (656ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.060 seconds
+Refreshing native plugins compatible for Editor in 18.53 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (321ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		LoadAllAssembliesAndSetupDomain (730ms)
+			LoadAssemblies (490ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+				TypeCache.Initialize (316ms)
+					TypeCache.ScanAssembly (308ms)
+				ResolveRequiredComponents (18ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 11.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3994 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (490.7 KB). Loaded Objects now: 4457.
+Memory consumption went from 138.4 MB to 137.9 MB.
+Total: 5.555800 ms (FindLiveObjects: 0.914100 ms CreateObjectMapping: 0.563400 ms MarkObjects: 3.839900 ms  DeleteObjects: 0.237400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.942 seconds
+Refreshing native plugins compatible for Editor in 11.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.402 seconds
+Domain Reload Profiling:
+	ReloadAssembly (311ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		LoadAllAssembliesAndSetupDomain (622ms)
+			LoadAssemblies (449ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+				TypeCache.Initialize (252ms)
+					TypeCache.ScanAssembly (246ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 12.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3975 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.4 KB). Loaded Objects now: 4462.
+Memory consumption went from 133.0 MB to 132.8 MB.
+Total: 3.311000 ms (FindLiveObjects: 0.300000 ms CreateObjectMapping: 0.178200 ms MarkObjects: 2.609500 ms  DeleteObjects: 0.222400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32863.553211 seconds.
+  path: Assets/Script/itemManager.cs
+  artifactKey: Guid(31b0b56a3f86b4f4795f6beee9947105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/itemManager.cs using Guid(31b0b56a3f86b4f4795f6beee9947105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77250d8f95cbb3bcd42aa64793537c21') in 0.001612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.918 seconds
+Refreshing native plugins compatible for Editor in 13.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (294ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		LoadAllAssembliesAndSetupDomain (612ms)
+			LoadAssemblies (457ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+				TypeCache.Initialize (233ms)
+					TypeCache.ScanAssembly (228ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 11.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3974 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.9 KB). Loaded Objects now: 4466.
+Memory consumption went from 132.7 MB to 132.5 MB.
+Total: 4.556800 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.258100 ms MarkObjects: 3.749300 ms  DeleteObjects: 0.251800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.001 seconds
+Refreshing native plugins compatible for Editor in 12.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (317ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		LoadAllAssembliesAndSetupDomain (673ms)
+			LoadAssemblies (507ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+				TypeCache.Initialize (253ms)
+					TypeCache.ScanAssembly (248ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 12.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.4 KB). Loaded Objects now: 4471.
+Memory consumption went from 133.0 MB to 132.8 MB.
+Total: 4.044800 ms (FindLiveObjects: 0.538000 ms CreateObjectMapping: 0.304400 ms MarkObjects: 2.951400 ms  DeleteObjects: 0.250000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1189.222650 seconds.
+  path: Assets/Script/GameManager.cs
+  artifactKey: Guid(5ab1f8afa9e8b4c418a3a3c99f3f1991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/GameManager.cs using Guid(5ab1f8afa9e8b4c418a3a3c99f3f1991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca8a7e8358017a220cbe104e41fe5e1') in 0.002771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.937 seconds
+Refreshing native plugins compatible for Editor in 11.88 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.339 seconds
+Domain Reload Profiling:
+	ReloadAssembly (325ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (601ms)
+			LoadAssemblies (460ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+				TypeCache.Initialize (234ms)
+					TypeCache.ScanAssembly (227ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 10.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3975 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (217.2 KB). Loaded Objects now: 4475.
+Memory consumption went from 132.8 MB to 132.6 MB.
+Total: 3.642600 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.269600 ms MarkObjects: 2.861400 ms  DeleteObjects: 0.174300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.895 seconds
+Refreshing native plugins compatible for Editor in 12.04 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.288 seconds
+Domain Reload Profiling:
+	ReloadAssembly (300ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (581ms)
+			LoadAssemblies (438ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+				TypeCache.Initialize (225ms)
+					TypeCache.ScanAssembly (220ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 12.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.5 KB). Loaded Objects now: 4479.
+Memory consumption went from 133.0 MB to 132.8 MB.
+Total: 3.265500 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.249100 ms MarkObjects: 2.504000 ms  DeleteObjects: 0.183100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.911 seconds
+Refreshing native plugins compatible for Editor in 13.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (302ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		LoadAllAssembliesAndSetupDomain (598ms)
+			LoadAssemblies (436ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+				TypeCache.Initialize (237ms)
+					TypeCache.ScanAssembly (231ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 11.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.4 KB). Loaded Objects now: 4483.
+Memory consumption went from 133.0 MB to 132.8 MB.
+Total: 3.568600 ms (FindLiveObjects: 0.294500 ms CreateObjectMapping: 0.182100 ms MarkObjects: 2.891300 ms  DeleteObjects: 0.199700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.886 seconds
+Refreshing native plugins compatible for Editor in 10.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling:
+	ReloadAssembly (279ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		LoadAllAssembliesAndSetupDomain (595ms)
+			LoadAssemblies (444ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+				TypeCache.Initialize (223ms)
+					TypeCache.ScanAssembly (218ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 12.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.4 KB). Loaded Objects now: 4487.
+Memory consumption went from 133.0 MB to 132.8 MB.
+Total: 3.491100 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.174200 ms MarkObjects: 2.849600 ms  DeleteObjects: 0.178400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.841 seconds
+Refreshing native plugins compatible for Editor in 11.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (271ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (560ms)
+			LoadAssemblies (392ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+				TypeCache.Initialize (237ms)
+					TypeCache.ScanAssembly (231ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 12.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.3 KB). Loaded Objects now: 4491.
+Memory consumption went from 133.1 MB to 132.8 MB.
+Total: 3.516500 ms (FindLiveObjects: 0.295800 ms CreateObjectMapping: 0.203300 ms MarkObjects: 2.799300 ms  DeleteObjects: 0.217000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.842 seconds
+Refreshing native plugins compatible for Editor in 9.59 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (286ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (545ms)
+			LoadAssemblies (397ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+				TypeCache.Initialize (225ms)
+					TypeCache.ScanAssembly (219ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (450ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 11.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.3 KB). Loaded Objects now: 4495.
+Memory consumption went from 133.1 MB to 132.8 MB.
+Total: 4.455500 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.317000 ms MarkObjects: 3.623700 ms  DeleteObjects: 0.234300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.858 seconds
+Refreshing native plugins compatible for Editor in 11.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (307ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (540ms)
+			LoadAssemblies (404ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+				TypeCache.Initialize (213ms)
+					TypeCache.ScanAssembly (208ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 10.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.2 KB). Loaded Objects now: 4499.
+Memory consumption went from 133.1 MB to 132.8 MB.
+Total: 3.502900 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.247900 ms MarkObjects: 2.650600 ms  DeleteObjects: 0.280000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 12.20 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (286ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (574ms)
+			LoadAssemblies (412ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+				TypeCache.Initialize (238ms)
+					TypeCache.ScanAssembly (232ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (411ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 12.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.4 KB). Loaded Objects now: 4503.
+Memory consumption went from 133.1 MB to 132.8 MB.
+Total: 4.230700 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.169200 ms MarkObjects: 3.563100 ms  DeleteObjects: 0.174400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.891 seconds
+Refreshing native plugins compatible for Editor in 10.16 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (295ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		LoadAllAssembliesAndSetupDomain (584ms)
+			LoadAssemblies (420ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+				TypeCache.Initialize (241ms)
+					TypeCache.ScanAssembly (235ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 9.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.4 KB). Loaded Objects now: 4507.
+Memory consumption went from 133.1 MB to 132.8 MB.
+Total: 3.341700 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.209300 ms MarkObjects: 2.612800 ms  DeleteObjects: 0.173300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.832 seconds
+Refreshing native plugins compatible for Editor in 10.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (267ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		LoadAllAssembliesAndSetupDomain (555ms)
+			LoadAssemblies (393ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+				TypeCache.Initialize (231ms)
+					TypeCache.ScanAssembly (226ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 12.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.4 KB). Loaded Objects now: 4511.
+Memory consumption went from 133.1 MB to 132.9 MB.
+Total: 3.511700 ms (FindLiveObjects: 0.536400 ms CreateObjectMapping: 0.116300 ms MarkObjects: 2.690500 ms  DeleteObjects: 0.167600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.840 seconds
+Refreshing native plugins compatible for Editor in 10.87 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (278ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		LoadAllAssembliesAndSetupDomain (553ms)
+			LoadAssemblies (402ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+				TypeCache.Initialize (229ms)
+					TypeCache.ScanAssembly (222ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 10.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.4 KB). Loaded Objects now: 4515.
+Memory consumption went from 133.1 MB to 132.9 MB.
+Total: 4.390400 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.213900 ms MarkObjects: 3.635600 ms  DeleteObjects: 0.236700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.844 seconds
+Refreshing native plugins compatible for Editor in 11.10 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.381 seconds
+Domain Reload Profiling:
+	ReloadAssembly (280ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		LoadAllAssembliesAndSetupDomain (552ms)
+			LoadAssemblies (399ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+				TypeCache.Initialize (227ms)
+					TypeCache.ScanAssembly (219ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 13.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.5 KB). Loaded Objects now: 4519.
+Memory consumption went from 133.1 MB to 132.9 MB.
+Total: 3.447700 ms (FindLiveObjects: 0.276700 ms CreateObjectMapping: 0.152200 ms MarkObjects: 2.781800 ms  DeleteObjects: 0.236200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Junho0322\Documents\GitHub\FarmRpg\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.875 seconds
+Refreshing native plugins compatible for Editor in 9.51 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (294ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (570ms)
+			LoadAssemblies (417ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+				TypeCache.Initialize (221ms)
+					TypeCache.ScanAssembly (216ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 10.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.5 KB). Loaded Objects now: 4523.
+Memory consumption went from 133.1 MB to 132.9 MB.
+Total: 4.075800 ms (FindLiveObjects: 0.291800 ms CreateObjectMapping: 0.205700 ms MarkObjects: 3.365900 ms  DeleteObjects: 0.211400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
